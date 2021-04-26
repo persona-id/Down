@@ -11,7 +11,7 @@
 #else
 import XCTest
 import WebKit
-@testable import Down
+@testable import PersonaDown
 
 class DownViewTests: XCTestCase {
 

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Down
+import PersonaDown
 
 final class ViewController: UIViewController {
     

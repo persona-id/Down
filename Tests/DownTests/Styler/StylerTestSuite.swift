@@ -10,7 +10,7 @@
 
 import XCTest
 import SnapshotTesting
-@testable import Down
+@testable import PersonaDown
 
 class StylerTestSuite: XCTestCase {
 

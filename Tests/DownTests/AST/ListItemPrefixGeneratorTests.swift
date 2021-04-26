@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Down
+@testable import PersonaDown
 
 class ListItemPrefixGeneratorTests: XCTestCase {
 
