@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "PersonaDown",
+    name: "PersonaDown2",
     platforms: [
         .macOS("10.11"),
         .iOS("9.0"),
@@ -11,8 +11,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "PersonaDown",
-            targets: ["PersonaDown"]
+            name: "PersonaDown2",
+            targets: ["PersonaDown2"]
         )
     ],
     targets: [
@@ -29,7 +29,7 @@ let package = Package(
             publicHeadersPath: "./"
         ),
         .target(
-            name: "PersonaDown",
+            name: "PersonaDown2",
             dependencies: ["libcmark"],
             path: "Sources/Down",
             exclude: ["Down.h"],
